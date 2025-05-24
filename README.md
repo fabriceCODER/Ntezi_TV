@@ -1,73 +1,105 @@
-# Welcome to your Lovable project
+# NTEZE TV Website
 
-## Project info
+A modern, responsive website for NTEZE TV Ministry, built with React and TypeScript. This platform serves as a digital presence for sharing biblical teachings and connecting with the faith community.
 
-**URL**: https://lovable.dev/projects/10bdbed0-aa1c-4d0e-925e-02b95ebfc6ee
+## 🚀 Features
 
-## How can I edit this code?
+- **Modern Design**: Clean and professional interface with a focus on user experience
+- **Responsive Layout**: Fully responsive design that works on all devices
+- **Performance Optimized**: Built with performance and accessibility in mind
+- **Interactive Elements**: Smooth animations and transitions
+- **Social Integration**: Direct links to YouTube and X (Twitter) platforms
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Framework**: React with TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: Shadcn/ui
+- **Icons**: Lucide React
+- **Font**: Inter (Google Fonts)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/10bdbed0-aa1c-4d0e-925e-02b95ebfc6ee) and start prompting.
+## 📦 Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/ntezetv-website.git
+cd ntezetv-website
+```
 
-**Use your preferred IDE**
+2. Install dependencies:
+```bash
+npm install
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Build for production:
+```bash
+npm run build
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🔧 Configuration
 
-**Use GitHub Codespaces**
+The website uses a configuration object in `src/pages/Index.tsx` that includes:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```typescript
+const config = {
+  youtubeApiKey: 'YOUR_YOUTUBE_API_KEY',
+  channelId: 'YOUR_CHANNEL_ID',
+  channelName: 'NTEZE TV',
+  youtuberName: 'NTEZE TV Ministry',
+  channelUrl: 'https://www.youtube.com/@NTEZETV',
+  xHandle: '@ntezetv',
+  xUrl: 'https://x.com/ntezetv',
+  niche: 'Biblical Teaching & Spiritual Growth'
+};
+```
 
-## What technologies are used for this project?
+## 🎨 Customization
 
-This project is built with:
+### Colors
+The website uses a custom color scheme:
+- Primary: Amber/Gold (#F59E0B)
+- Background: Dark gradient (slate-900 to purple-900)
+- Text: White and gray shades
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Components
+The website is built using modular components that can be easily customized:
+- Hero Section
+- Feature Cards
+- About Section
+- Footer
 
-## How can I deploy this project?
+## 📱 Responsive Design
 
-Simply open [Lovable](https://lovable.dev/projects/10bdbed0-aa1c-4d0e-925e-02b95ebfc6ee) and click on Share -> Publish.
+The website is fully responsive with breakpoints for:
+- Mobile devices
+- Tablets
+- Desktop screens
+- Large displays
 
-## Can I connect a custom domain to my Lovable project?
+## 🚀 Deployment
 
-Yes, you can!
+The website can be deployed to any static hosting service. Recommended platforms:
+- Vercel
+- Netlify
+- GitHub Pages
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📄 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📞 Support
+
+For support, please contact the NTEZE TV Ministry team.
+
+---
+
+Built with ❤️ for NTEZE TV Ministry
